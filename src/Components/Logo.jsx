@@ -1,11 +1,10 @@
-import React from 'react'
 
 const Logo = () => {
   return (
-    <div>
-      
-    </div>
-  )
+        <h1>
+            Hello
+        </h1>
+    )
 }
 
 export default Logo
