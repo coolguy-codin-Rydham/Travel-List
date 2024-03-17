@@ -1,10 +1,9 @@
 import Item from "./Item";
-import { initialItems } from "./initial";
-const PackingList = () => {
+const PackingList = ({items}) => {
   return (
     <div className="list">
       <ul className="" style={{overflow:"hidden"}}>
-        {initialItems.map((item) => {
+        {items.map((item) => {
           return <Item key={item.id} item={item} />;
         })}
       </ul>
